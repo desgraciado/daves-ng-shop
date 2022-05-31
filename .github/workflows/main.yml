@@ -43,6 +43,6 @@ jobs:
         server: ${{ env.SERVER }}
         username: ${{ secrets.PROD_USER }}
         password: ${{ secrets.PROD_PASSWORD }}
-        local-dir: ./dist/
+        local-dir: ./dist/my-app/*
         server-dir: ./
         dangerous-clean-slate: true
