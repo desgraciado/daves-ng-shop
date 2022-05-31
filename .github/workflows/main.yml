@@ -44,5 +44,5 @@ jobs:
         username: ${{ secrets.PROD_USER }}
         password: ${{ secrets.PROD_PASSWORD }}
         local-dir: ./dist/
-        server-dir: ./site/wwwroot/
+        server-dir: ./
         dangerous-clean-slate: true
